@@ -4,14 +4,15 @@ import image1 from "../../assets/images.png";
 import image2 from "../../assets/image2.png";
 import image3 from "../../assets/bank.png";
 import Footer from "../../Components/footer/footer";
+import HeroSection from "../../Components/Hero/heroSection";
 
 export default function Home() {
   return (
     <>
       <div className="home" id="homePage">
         <Navbar />
-        <Products />
-        <div className="flex justify-between  ">
+        <HeroSection />
+        <div className="flex justify-between m-9  ">
           <div className=" flex h-60 w-96 p-4 m-3 border-solid border-2 border-grey-800 bg-red-600 rounded-md  ">
             <div className="image-section h-56 flex justify-center items-center p-3 ">
               <img
@@ -81,6 +82,7 @@ export default function Home() {
           </div>
         </div>
         <hr />
+        <Products />
         <Footer />
       </div>
     </>

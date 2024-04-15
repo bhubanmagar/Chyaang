@@ -1,13 +1,12 @@
 const products = [
   {
     id: 1,
-    name: "Gurkhas and Guns ",
+    name: "Aged Whiskey ",
     href: "#",
-    imageSrc:
-      "https://onlineliquornepal.com/wp-content/uploads/2021/10/Buy-Gurkhas-and-Guns-Online-in-Nepal.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageSrc: "https://drinkraksi.com/wp-content/uploads/2022/12/aged.webp",
+    imageAlt: "Aged whiskey with local herbs",
     price: "$35",
-    color: "Rum",
+    category: "Whiskey",
   },
   {
     id: 2,
@@ -17,7 +16,7 @@ const products = [
       "https://onlineliquornepal.com/wp-content/uploads/2021/01/Buy-Old-Durbar-Black-Chimney-Online-in-Nepal.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "$35",
-    color: "Rum",
+    category: "Rum",
   },
   {
     id: 3,
@@ -27,7 +26,7 @@ const products = [
       "https://onlineliquornepal.com/wp-content/uploads/2022/12/Akira-Sweet-Red-Wine-750ML.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "$45",
-    color: "Wine",
+    category: "Wine",
   },
   {
     id: 4,
@@ -37,7 +36,7 @@ const products = [
       "https://onlineliquornepal.com/wp-content/uploads/2021/07/budweiser-bottle.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "$5",
-    color: "Beer",
+    category: "Beer",
   },
   {
     id: 5,
@@ -47,16 +46,16 @@ const products = [
       "https://onlineliquornepal.com/wp-content/uploads/2021/01/Coca-Cola.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "$1",
-    color: "Soft drinks",
+    category: "Soft drinks",
   },
 ];
 
 export default function Products() {
   return (
-    <div className="bg-white" id="products">
+    <div className="bg-slate-100" id="products">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Popular Products
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 bg-slate-200 inline-block rounded-3xl p-2">
+          Products
         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -77,7 +76,9 @@ export default function Products() {
                       {product.name}
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                  <p className="mt-1 text-sm text-gray-500">
+                    {product.category}
+                  </p>
                 </div>
                 <p className="text-sm font-medium text-gray-900">
                   {product.price}

@@ -7,7 +7,7 @@ import payment from "../../assets/payment.jpg";
 const Footer = () => {
   return (
     <>
-      <div className="footer-section h-72 box-border bg-zinc-100 flex justify-between">
+      <div className="footer-section h-72 box-border bg-zinc-100 flex justify-between min-sm:block">
         <div className="about-us h-64 w-80 p-2   bg-zinc-100 rounded-md">
           <div className="font-bold  p-2">
             <span>ABOUT US</span>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         {/* we serve */}
-        <div className="about-us h-64 w-80 p-2 rounded-md">
+        <div className="we-serve h-64 w-80 p-2 rounded-md">
           <div className="font-bold  p-2">
             <span>WE SERVE </span>
           </div>
