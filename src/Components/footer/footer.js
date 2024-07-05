@@ -7,7 +7,7 @@ import payment from "../../assets/payment.jpg";
 const Footer = () => {
   return (
     <>
-      <div className="footer-section h-72 box-border bg-zinc-100 flex justify-between min-sm:block">
+      <div className="footer-section h-72 box-border bg-zinc-100 flex justify-between max-sm:block">
         <div className="about-us h-64 w-80 p-2   bg-zinc-100 rounded-md">
           <div className="font-bold  p-2">
             <span>ABOUT US</span>
@@ -31,11 +31,11 @@ const Footer = () => {
           </div>
           <hr />
           <div className="pl-9 font-serif p-1 ">
-            <span>inside ringroad</span>
+            <span>inside Ringroad</span>
           </div>
           <hr />
           <div className="info m-2 p-1">
-            <p className="pl-5">everywhere</p>
+            <p className="pl-5">Outside Valley</p>
             <br />
             <br />
             <strong>Delevery Time: </strong>

@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Dropdown from "../Dropdown";
 
 const navigation = [
-  { name: "Dashboard", href: "/", current: true },
+  { name: "Home", href: "/", current: true },
   { name: "TopSeller", href: "#products", current: false },
   { name: "Products", href: "#products", current: false },
 ];
@@ -35,8 +35,8 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto "
-                    src="https://w7.pngwing.com/pngs/479/819/png-transparent-shopping-cart-bag-shopping-cart-text-logo-supermarket.png"
+                    className="h-10  w-11 rounded-3xl  "
+                    src="https://i.pinimg.com/564x/8e/5f/a6/8e5fa6f223b0329493d4b218c0e6c3f9.jpg"
                     alt="Your Company"
                   />
                 </div>

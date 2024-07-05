@@ -12,7 +12,7 @@ export default function Home() {
       <div className="home" id="homePage">
         <Navbar />
         <HeroSection />
-        <div className="flex justify-between m-9  ">
+        <div className="flex justify-between m-9 max-sm:block  ">
           <div className=" flex h-60 w-96 p-4 m-3 border-solid border-2 border-grey-800 bg-red-600 rounded-md  ">
             <div className="image-section h-56 flex justify-center items-center p-3 ">
               <img

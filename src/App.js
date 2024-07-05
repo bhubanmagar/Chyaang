@@ -3,7 +3,7 @@ import MyRoutes from "./MyRoutes/myRoutes";
 function App() {
   return (
     <div className="App">
-      <MyRoutes />
+      <MyRoutes data="tero bau" />
     </div>
   );
 }
